@@ -1,56 +1,90 @@
-
-
-/*for (let i = 2; i <= 8; i++) {
-    console.log(i);
-}*/
-
-
-/*for (let i = 5; i <=35; i += 4) {
-  console.log(i);
-}*/
-
-
-/*let a = 1;
-
-for (let i = 3; i <= 8; i++) {
-  a = a * i;
+/*function davaleba(m,n) {
+    if (m>n) {
+        return m;
+    }else if (n>m) {
+       return n;
+    } else {
+     return 0;
+    }
 }
-console.log(a);*/
+    console.log (davaleba(10,5));
+    console.log (davaleba(10,5));
+    console.log (davaleba(7,7));*/
 
 
-/*const person = {
-firstname: "nika",
-lastname: "melikidze", 
-age : 40
+
+/*function sum (a,b) {
+
+   return a+b;
 }
-console.log(person.firstname + " " + person.lastname);*/
 
+    console.log (sum (5,10));*/
 
-
-/*const person = {
-firstname: "nika",
-lastname: "melikidze", 
-age : 40
+/*function printName() {
+    console.log("ნიკა მელიქიძე");
 }
-console.log(person.firstname);
-   console.log (person.lastname);
-      console.log (person.age); */
+    printName();*/
 
 
-/*let fruit = ["Apple", "Banana", "Orange"];
-
-for (let i = 0; i<fruit.length; i++)
-{
-  console.log(fruit[i]);
-}*/
+    /* function getFullName (firstname, Lastname) {
+        return firstname + " " + Lastname;
+    }
+console.log (getFullName ("ნიკა", "მელიქიძე"));*/
 
 
-/*let fruit = ["Apple", "Banana", "Orange"];
-fruit.unshift("grapes");
-fruit.push("Pineapples");
-console.log(fruit);*/
+/*function product(n) {
+    let result = 1; 
+    
+    for (let i = 1; i <= n; i++) {
+        result *= i; 
+    }
+    
+    return result; 
+}
+console.log(product(3));*/
 
-/*let fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapples", "Grapes"];
-for (let i = 1; i < fruits.length; i +=2) {
-  console.log("Index:", i, "Value:", fruits[i]);
-}*/
+
+
+/*let student = {
+firstname: "ნიკა",
+lastname: "მელიქიძე",
+age: 40, 
+
+scores: [4,7,5,3,2], 
+
+fullname : function() {
+
+    return this.firstname + " " + this.lastname;
+}
+};
+
+console.log (student.fullname()); */
+
+
+/*function sumScores(scores) {
+  let sum = 0;
+  for (let i = 0; i < scores.length; i++) {
+    sum += scores[i];
+  }
+  return sum;
+}
+
+let student = {
+  firstname: "ნიკა",
+  lastname: "მელიქიძე",
+  age: 40, 
+  scores: [4, 7, 5, 3, 2]
+};
+
+let total = sumScores(student.scores);
+console.log(total); */
+
+
+let student = {
+    firstName: "ნიკა",
+    lastName: "მელიქიძე",
+    age: 40,
+    scores: [4,7,5,3,2],
+}
+console.log(student.firstName);
+console.log(student.age);
